@@ -1,0 +1,3087 @@
+{
+  "intents": [
+    {
+      "intent": "Acompanhar_Histórico",
+      "examples": [
+        {
+          "text": "Consigo ver o historico"
+        },
+        {
+          "text": "Gostaria de vizualizar o histórico do meu pet"
+        },
+        {
+          "text": "Histórico animal"
+        },
+        {
+          "text": "Histórico do meu bicho"
+        },
+        {
+          "text": "Histórico do meu Pet"
+        },
+        {
+          "text": "Onde esta o historico do meu animal de estimação?"
+        },
+        {
+          "text": "Posso ver o histórico do meu pet?"
+        },
+        {
+          "text": "Quero acompanhar o histórico do meu pet"
+        },
+        {
+          "text": "Quero consultar o histórico do meu animal"
+        },
+        {
+          "text": "Quero ver histórico de consulta do meu animal"
+        },
+        {
+          "text": "Quero vizualizar o histórico do meu pet"
+        },
+        {
+          "text": "Vizualizar histórico"
+        }
+      ],
+      "description": "capturar a intenção do usuário de acompanhar o histórico do pet"
+    },
+    {
+      "intent": "Agradecimento",
+      "examples": [
+        {
+          "text": "agradeço"
+        },
+        {
+          "text": "agradeço o atendimento"
+        },
+        {
+          "text": "beleza"
+        },
+        {
+          "text": "grata"
+        },
+        {
+          "text": "grate"
+        },
+        {
+          "text": "grato"
+        },
+        {
+          "text": "mt obg"
+        },
+        {
+          "text": "Muito obrigada."
+        },
+        {
+          "text": "obg"
+        },
+        {
+          "text": "obgd"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "tamo junto"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "tmj"
+        },
+        {
+          "text": "valeu"
+        },
+        {
+          "text": "vlw"
+        }
+      ],
+      "description": "capturar a intenção de agradecimento do usuário"
+    },
+    {
+      "intent": "Caso_Emergencia",
+      "examples": [
+        {
+          "text": "emergencia"
+        },
+        {
+          "text": "me ajuda"
+        },
+        {
+          "text": "meu animal está ferido"
+        },
+        {
+          "text": "meu animal está morrendo"
+        },
+        {
+          "text": "meu animal está passando mal"
+        },
+        {
+          "text": "meu cachorro precisa de ajuda"
+        },
+        {
+          "text": "meu gato precisa de ajuda"
+        },
+        {
+          "text": "meu pet está ferido"
+        },
+        {
+          "text": "meu pet precisa de ajuda urgente"
+        },
+        {
+          "text": "preciso cuidar do meu animal com urgência"
+        },
+        {
+          "text": "preciso de atendimento imediato pro meu animal"
+        },
+        {
+          "text": "preciso de atendimento rapido"
+        },
+        {
+          "text": "socorro"
+        },
+        {
+          "text": "urgente"
+        }
+      ],
+      "description": "capturar a intenção de emergência do usuário"
+    },
+    {
+      "intent": "Castração",
+      "examples": [
+        {
+          "text": "castração"
+        },
+        {
+          "text": "castrar"
+        },
+        {
+          "text": "Como funciona a castração de pet"
+        },
+        {
+          "text": "gostaria de castrar meu cão"
+        },
+        {
+          "text": "gostaria de castrar meu dog"
+        },
+        {
+          "text": "gostaria de castrar meu gato"
+        },
+        {
+          "text": "Gostaria de saber sobre castração pro meu animal"
+        },
+        {
+          "text": "Gostaria de saber sobre castração pro meu pet"
+        },
+        {
+          "text": "opções de castração"
+        },
+        {
+          "text": "Quero castrar meu animal"
+        },
+        {
+          "text": "Quero castrar meu cachorro"
+        },
+        {
+          "text": "Quero castrar meu gato"
+        },
+        {
+          "text": "Quero castrar meu pet"
+        },
+        {
+          "text": "Quero realizar o processo de castração"
+        }
+      ],
+      "description": "capturar a intenção do usuário de mandar mensagens e tirar dúvidas sobre castração"
+    },
+    {
+      "intent": "Cirurgias",
+      "examples": [
+        {
+          "text": "cirurgias"
+        },
+        {
+          "text": "cirurgia veterinaria"
+        },
+        {
+          "text": "cirurgia veterinaria para o meu cachorro"
+        },
+        {
+          "text": "cirurgia veterinaria para o meu gato"
+        },
+        {
+          "text": "como fazer a cirurgia no meu gato"
+        },
+        {
+          "text": "fazer cirurgia veterinaria do animal de estimação"
+        },
+        {
+          "text": "gostaria de realizar cirurgias no meu cachorro"
+        },
+        {
+          "text": "meu animal de estimação necessita realizar uma cirurgia veterinária"
+        },
+        {
+          "text": "meu animal precisa fazer uma cirurgia"
+        },
+        {
+          "text": "meu bicho pode fazer uma cirurgia"
+        },
+        {
+          "text": "meu pet precisa fazer uma cirurgia veterinária"
+        },
+        {
+          "text": "Quero fazer uma cirurgia no meu coelho"
+        },
+        {
+          "text": "quero fazer uma cirurgia veterinária no meu cachorro"
+        },
+        {
+          "text": "quero marcar cirurgia"
+        },
+        {
+          "text": "quero realizar o procedimento cirúrgico no meu gato"
+        }
+      ],
+      "description": "capturar a intenção do usuário de mandar mensagens e tirar dúvidas sobre cirurgia"
+    },
+    {
+      "intent": "desmarcar_cirurgia",
+      "examples": [
+        {
+          "text": "cancelar cirurgia"
+        },
+        {
+          "text": "desmarcar cirurgia"
+        },
+        {
+          "text": "gostaria de desmarcar a cirurgia"
+        },
+        {
+          "text": "gostaria de desmarcar a cirurgia do meu pet"
+        },
+        {
+          "text": "gostaria de desmarcar as cirurgias"
+        },
+        {
+          "text": "não vou levar meu pet pra cirurgia"
+        },
+        {
+          "text": "n vou levar meu pet pra cirurgia"
+        },
+        {
+          "text": "poderia desmarcar a cirurgia do meu pet?"
+        },
+        {
+          "text": "quero cancelar a cirurgia do meu animal"
+        },
+        {
+          "text": "quero cancelar cirurgia"
+        },
+        {
+          "text": "quero desmarcar a cirurgia do meu animal"
+        },
+        {
+          "text": "quero desmarcar cirurgia"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "desmarcar_consulta",
+      "examples": [
+        {
+          "text": "cancelar consulta"
+        },
+        {
+          "text": "desmarcar consulta"
+        },
+        {
+          "text": "gostaria de cancelar as consultas"
+        },
+        {
+          "text": "gostaria de desmarcar a consulta"
+        },
+        {
+          "text": "gostaria de desmarcar a consulta do meu pet"
+        },
+        {
+          "text": "gostaria de desmarcar as consultas"
+        },
+        {
+          "text": "não vou levar meu pet para a consulta"
+        },
+        {
+          "text": "n vou levar meu pet para a consulta"
+        },
+        {
+          "text": "poderia desmarcar a consulta do meu pet"
+        },
+        {
+          "text": "quero cancelar a consulta"
+        },
+        {
+          "text": "quero cancelar consulta do meu animal"
+        },
+        {
+          "text": "quero desmarcar a consulta"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Desmarcar_Exames",
+      "examples": [
+        {
+          "text": "cancelar"
+        },
+        {
+          "text": "cancelar exames"
+        },
+        {
+          "text": "como desmarcar exames"
+        },
+        {
+          "text": "desmarcar exames"
+        },
+        {
+          "text": "gostaria de desmarcar os exames do meu animal"
+        },
+        {
+          "text": "gostaria de desmarcar os exames do meu cachorro"
+        },
+        {
+          "text": "gostaria de desmarcar os exames do meu gato"
+        },
+        {
+          "text": "gostaria de desmarcar os exames do meu pet"
+        },
+        {
+          "text": "não vou levar meu pet para realizar os exames"
+        },
+        {
+          "text": "n vou levar meu pet para realizar exames"
+        },
+        {
+          "text": "quero cancelar o agendamento dos exames"
+        },
+        {
+          "text": "quero cancelar os agendamentos feitos"
+        }
+      ],
+      "description": "capturar a intenção do usuário de desmarcar os agendamentos feitos"
+    },
+    {
+      "intent": "Marcar_consulta",
+      "examples": [
+        {
+          "text": "agendamento de consulta"
+        },
+        {
+          "text": "agendar consulta"
+        },
+        {
+          "text": "consulta"
+        },
+        {
+          "text": "consulta veterinária"
+        },
+        {
+          "text": "gostaria de agendar uma consulta para meu bicho"
+        },
+        {
+          "text": "gostaria de marcar consulta para meu pet"
+        },
+        {
+          "text": "gostaria de realizar uma consulta"
+        },
+        {
+          "text": "marcar consulta"
+        },
+        {
+          "text": "quero agendar consulta para meu pet"
+        },
+        {
+          "text": "quero agendar uma consulta para meu animal"
+        },
+        {
+          "text": "quero marcar consulta"
+        },
+        {
+          "text": "realizar agendamento de consulta"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Marcar_Exames",
+      "examples": [
+        {
+          "text": "exames"
+        },
+        {
+          "text": "Gostaria de marcar exames para meu animal"
+        },
+        {
+          "text": "Gostaria de marcar exames para meu bixo de estimação"
+        },
+        {
+          "text": "Gostaria de marcar exames para meu pet"
+        },
+        {
+          "text": "Gostaria de marcar exames para meus pets"
+        },
+        {
+          "text": "Quero agendar alguns exames para meu pet"
+        },
+        {
+          "text": "Quero marcar alguns exames para meu pet"
+        },
+        {
+          "text": "Quero marcar exames para meu animal"
+        },
+        {
+          "text": "Quero marcar exames para meus pets"
+        },
+        {
+          "text": "Quero marcar um exame"
+        }
+      ],
+      "description": "capturar a intenção do usuário de marcar agendamento"
+    },
+    {
+      "intent": "Vacina",
+      "examples": [
+        {
+          "text": "agendar vacinação"
+        },
+        {
+          "text": "gostaria de agendar a vacinação do meu pet"
+        },
+        {
+          "text": "gostaria de vacinar meu animal"
+        },
+        {
+          "text": "gostaria de vacinar meu animal de estimação"
+        },
+        {
+          "text": "gostaria de vacinar meu pet"
+        },
+        {
+          "text": "marcar vacinação"
+        },
+        {
+          "text": "quero vacinar meu bicho"
+        },
+        {
+          "text": "quero vacinar meu pet"
+        },
+        {
+          "text": "quero vacinar meus bichos"
+        },
+        {
+          "text": "trabalham com vacina?"
+        },
+        {
+          "text": "vacinação"
+        },
+        {
+          "text": "vacinar"
+        },
+        {
+          "text": "vocês vacinam?"
+        }
+      ],
+      "description": "capturar a intenção do usuário de vacinação do seu pet"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Avaliação",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bom",
+          "synonyms": [
+            "4",
+            "4,5",
+            "gostei",
+            "me ajudou",
+            "útil"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "excelente",
+          "synonyms": [
+            "5",
+            "amei",
+            "melhor atendimento",
+            "melhor clinica",
+            "muito atencioso",
+            "muito bom serviço",
+            "perfeito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "médio",
+          "synonyms": [
+            "3",
+            "3,5",
+            "mediano",
+            "meh",
+            "não fez mais que sua obrigação",
+            "normal",
+            "padrão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "péssimo",
+          "synonyms": [
+            "1",
+            "1,5",
+            "horrível",
+            "lixo",
+            "não ajudou em nada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ruim",
+          "synonyms": [
+            "2",
+            "2,5",
+            "muito ruim"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Cirurgia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Castração",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cesária",
+          "synonyms": [
+            "parto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Gastrotomia",
+          "synonyms": [
+            "barriga",
+            "estomago"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Laparotomias",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Neurocirurgia",
+          "synonyms": [
+            "cabeça"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "oftalmológica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Oncológica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ortopédica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Torácica",
+          "synonyms": [
+            "tórax "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "Espécie",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aranha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cachorro",
+          "synonyms": [
+            "cão",
+            "dog"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Calopsita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cavalo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cobra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Coelho",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gato",
+          "synonyms": [
+            "cat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hamster",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Papagaio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peixe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tartaruga",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "localidade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Belo Horizonte",
+          "synonyms": [
+            "BH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Curitiba",
+          "synonyms": [
+            "CTBA",
+            "CWB"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Florianópolis",
+          "synonyms": [
+            "fl",
+            "floripa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Porto Alegre",
+          "synonyms": [
+            "PA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rio de Janeiro",
+          "synonyms": [
+            "Rio",
+            "RJ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "São Paulo",
+          "synonyms": [
+            "SP"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sexo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fêmea",
+          "synonyms": [
+            "feminino"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "macho",
+          "synonyms": [
+            "masculino"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim_não",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "n",
+            "negativo",
+            "nem",
+            "no",
+            "nop",
+            "nope"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "bele",
+            "beleza",
+            "blz",
+            "certo",
+            "claro",
+            "pode ser",
+            "positivo",
+            "s",
+            "suave",
+            "yes",
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "\\d{9}",
+            "\\d{5}-\\d{4}",
+            "\\d{11}",
+            "\\d{2}-\\d{5}-\\d{4}",
+            "\\d{2} \\d{5} \\d{4}"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "fixo",
+          "patterns": [
+            "\\d{4}-\\d{4}"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "tipo_exame",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ecocardiograma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "eltrocardiograma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "exame de aids e leucemia felina",
+          "synonyms": [
+            "aids",
+            "exame de aids",
+            "leucemia felina"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "exame de fezes coproparasitológico",
+          "synonyms": [
+            "exame de fezes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "exames de função renal e hepatica",
+          "synonyms": [
+            "exame renal",
+            "hepatica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "exame vet check",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "glicose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hemograma completo",
+          "synonyms": [
+            "hemograma"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mensuração de pressão arterial",
+          "synonyms": [
+            "medir pressão",
+            "pressão arterial"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "raio x",
+          "synonyms": [
+            "raio-x"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sangue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ultrassom",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "urina",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "vacina",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Antirrábica",
+          "synonyms": [
+            "Antirraiva ",
+            "Raiva"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Antitetânica",
+          "synonyms": [
+            "tétano "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Giárdia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gripe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leishmaniose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sinomose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "V10",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "V3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "V4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "V5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "V8",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, sou o Bot da Clínica Veterinária. Posso te ajudar com dúvidas sobre o agendamento de exames, acompanhamento de histórico, agendamento de consultas, cirurgias e vacinação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perdão, poderia repetir?"
+              },
+              {
+                "text": "Não entendi o que quis dizer..."
+              },
+              {
+                "text": "Não entendi muito bem, poderia digitar de novo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_2_1681736929225",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Localidade",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1681732451386",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1681753421007"
+      },
+      "conditions": "@localidade",
+      "dialog_node": "node_10_1681730473392"
+    },
+    {
+      "type": "standard",
+      "title": "Ver Histórico",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, Informe o seu número de celular."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#Acompanhar_Histórico",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1681737503871",
+      "previous_sibling": "node_3_1681760492985"
+    },
+    {
+      "type": "standard",
+      "title": "Tipo de Exame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Possuímos unidades nas cidades de São Paulo, Rio de Janeiro, Belo Horizonte, Porto Alegre, Florianópolis e Curitiba. Tem interesse de agendar em alguma delas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1681765270280",
+      "context": {},
+      "conditions": "@tipo_exame",
+      "dialog_node": "node_10_1681752810719"
+    },
+    {
+      "type": "standard",
+      "title": "Florianópolis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na R. Cel. Caetano Costa, 354 - Jardim Atlântico, Florianópolis - SC, 88090-340. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1681768459653",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_12_1681768530131"
+      },
+      "conditions": "@localidade:Florianópolis",
+      "dialog_node": "node_10_1681768459659",
+      "previous_sibling": "node_9_1681768459659"
+    },
+    {
+      "type": "standard",
+      "title": "Rio de Janeiro\\",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada no Shopping Downtown - Av. das Américas, 500 - BL9 Loja 107 - Barra da Tijuca, Rio de Janeiro - RJ, 22640-100. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1681771668638",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_15_1681771668638"
+      },
+      "conditions": "@localidade:(Rio de Janeiro)",
+      "dialog_node": "node_10_1681771668638",
+      "previous_sibling": "node_9_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Vacina com espécie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o sexo do animal?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1681772988207"
+      },
+      "conditions": "#Vacina && @Espécie",
+      "dialog_node": "node_10_1681784414958",
+      "previous_sibling": "node_10_1681737503871"
+    },
+    {
+      "type": "standard",
+      "title": "Belo Horizonte",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Rua Meyer, 102 - Alto Caiçaras, Belo Horizonte - MG, 30775-070. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1681768459653",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:(Belo Horizonte)",
+      "dialog_node": "node_11_1681768459659",
+      "previous_sibling": "node_10_1681768459659"
+    },
+    {
+      "type": "standard",
+      "title": "Curitiba",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na R. Itatiaia, 1131 - Portão, Curitiba - PR, 81070-100. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1681771668638",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_15_1681771668638"
+      },
+      "conditions": "@localidade:Curitiba",
+      "dialog_node": "node_11_1681771668638",
+      "previous_sibling": "node_10_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Contato",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe seu e-mail para mandarmos o histórico do seu animal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1681737503871",
+      "conditions": "@telefone",
+      "dialog_node": "node_1_1681741890020"
+    },
+    {
+      "type": "standard",
+      "title": "Localidade ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1681752810719",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@localidade",
+      "dialog_node": "node_1_1681753421007",
+      "previous_sibling": "node_7_1681733907267"
+    },
+    {
+      "type": "standard",
+      "title": "Espécie_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o sexo do pet?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681760492985",
+      "conditions": "@Espécie",
+      "dialog_node": "node_1_1681763953148"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação Com localidade_2",
+      "output": {},
+      "parent": "node_3_1681765837954",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1681753421007"
+      },
+      "conditions": "@sim_não:sim && @localidade",
+      "dialog_node": "node_1_1681768218815"
+    },
+    {
+      "type": "standard",
+      "title": "Cirurgia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual a espécie do animal?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Cirurgias",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1681771668631",
+      "previous_sibling": "node_3_1681784465969"
+    },
+    {
+      "type": "standard",
+      "title": "Dia da consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a consulta foi marcado para o dia $data_consulta, na unidade de $localidade. Só chegar lá e falar com a recepcionista."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681765837954",
+      "context": {
+        "data_consulta": "\"<? @sys-date.reformatDateTime(\"dd/MM/yyyy\")?>\""
+      },
+      "conditions": "@sys-date",
+      "dialog_node": "node_12_1681768530131",
+      "previous_sibling": "node_5_1681768459653"
+    },
+    {
+      "type": "standard",
+      "title": "Porto Alegre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Av. Benno Mentz, 1368 - Vila Ipiranga, Porto Alegre - RS, 91370-020. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1681771668638",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_15_1681771668638"
+      },
+      "conditions": "@localidade:(Porto Alegre)",
+      "dialog_node": "node_12_1681771668638",
+      "previous_sibling": "node_11_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Florianópolis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na R. Cel. Caetano Costa, 354 - Jardim Atlântico, Florianópolis - SC, 88090-340 . Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1681771668638",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_15_1681771668638"
+      },
+      "conditions": "@localidade:Florianópolis",
+      "dialog_node": "node_13_1681771668638",
+      "previous_sibling": "node_12_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Belo Horizonte ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Rua Meyer, 102 - Alto Caiçaras, Belo Horizonte - MG, 30775-070. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1681771668638",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_15_1681771668638"
+      },
+      "conditions": "@localidade:(Belo Horizonte)",
+      "dialog_node": "node_14_1681771668638",
+      "previous_sibling": "node_13_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Dia da cirurgia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a data da cirurgia foi marcada para o dia $data_cirurgia, na unidade de $localidade. Só chegar lá e falar com a recepcionista."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681771668638",
+      "context": {
+        "data_cirurgia": "\"<? @sys-date.reformatDateTime(\"dd/MM/yyyy\")?>\""
+      },
+      "conditions": "@sys-date",
+      "dialog_node": "node_15_1681771668638",
+      "previous_sibling": "node_8_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual delas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1681752810719",
+      "conditions": "@sim_não:sim",
+      "dialog_node": "node_2_1681732451386",
+      "previous_sibling": "node_4_1681753469163"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tamo junto, humano! Você precisa de mais alguma ajuda?"
+              },
+              {
+                "text": "Obrigado por escolher a nossa clinica! Você possui alguma dúvida?"
+              },
+              {
+                "text": "Eu agradeço a preferencia, cuide bem dos seus bichinhos! Caso tenha alguma dúvida ou precise de ajuda, estamos a disposição!"
+              },
+              {
+                "text": "Valeuu! Ainda precisa da nossa ajuda?"
+              },
+              {
+                "text": "Obrigada pela preferência! Posso te ajudar em mais alguma coisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Agradecimento",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1681736929225",
+      "previous_sibling": "node_2_1681750839561"
+    },
+    {
+      "type": "standard",
+      "title": "Emergencia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo! Qual a sua localização?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Caso_Emergencia",
+      "dialog_node": "node_2_1681750839561",
+      "previous_sibling": "node_1_1681771668631"
+    },
+    {
+      "type": "standard",
+      "title": "São Paulo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Rua Cerro Corá 1438, São Paulo, SP, 05061-200. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar o exame para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1681753421007",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:(São Paulo)",
+      "dialog_node": "node_2_1681753421033"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual delas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681765837954",
+      "conditions": "@sim_não:sim",
+      "dialog_node": "node_2_1681768359339",
+      "previous_sibling": "node_1_1681768218815"
+    },
+    {
+      "type": "standard",
+      "title": "Espécie_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o sexo do pet?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1681771668631",
+      "conditions": "@Espécie",
+      "dialog_node": "node_2_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Espécie_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o sexo do pet?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1681754487570",
+      "conditions": "@Espécie",
+      "dialog_node": "node_27_1681768991274"
+    },
+    {
+      "type": "standard",
+      "title": "Tipo de Vacina",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Possuímos unidades nas cidades de São Paulo, Rio de Janeiro, Belo Horizonte, Porto Alegre, Florianópolis e Curitiba. Tem interesse de agendar em alguma delas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1681772988207",
+      "conditions": "@vacina",
+      "dialog_node": "node_28_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação Com localidade_3",
+      "output": {},
+      "parent": "node_28_1681768991280",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1681753421007"
+      },
+      "conditions": "@sim_não:sim && @localidade",
+      "dialog_node": "node_29_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual delas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1681768991280",
+      "conditions": "@sim_não:sim",
+      "dialog_node": "node_30_1681768991280",
+      "previous_sibling": "node_29_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Localidade",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1681768991280",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1681753421007"
+      },
+      "conditions": "@localidade",
+      "dialog_node": "node_31_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Localidade (Emergência)",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1681750839561",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@localidade",
+      "dialog_node": "node_31_1681776229285"
+    },
+    {
+      "type": "standard",
+      "title": "Rio de Janeiro\\",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Shopping Downtown - Av. das Américas, 500 - BL9 Loja 107 - Barra da Tijuca, Rio de Janeiro - RJ, 22640-100 Avenida Atlântica, 578. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar o exame para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1681753421007",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:(Rio de Janeiro)",
+      "dialog_node": "node_3_1681753421033",
+      "previous_sibling": "node_2_1681753421033"
+    },
+    {
+      "type": "standard",
+      "title": "Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "qual espécie do seu pet?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Marcar_consulta",
+      "dialog_node": "node_3_1681760492985",
+      "previous_sibling": "node_4_1681784271035"
+    },
+    {
+      "type": "standard",
+      "title": "Espécie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o sexo do animal?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1681692463078",
+      "conditions": "@Espécie",
+      "dialog_node": "node_3_1681764603379"
+    },
+    {
+      "type": "standard",
+      "title": "Sexo_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Possuímos unidades nas cidades de São Paulo, Rio de Janeiro, Belo Horizonte, Porto Alegre, Florianópolis e Curitiba. Tem interesse de agendar em alguma delas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1681763953148",
+      "conditions": "@sexo",
+      "dialog_node": "node_3_1681765837954"
+    },
+    {
+      "type": "standard",
+      "title": "Localidade",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1681768359339",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1681753421007"
+      },
+      "conditions": "@localidade",
+      "dialog_node": "node_3_1681768359345"
+    },
+    {
+      "type": "standard",
+      "title": "Tipo de Cirurgia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Possuímos unidades nas cidades de São Paulo, Rio de Janeiro, Belo Horizonte, Porto Alegre, Florianópolis e Curitiba. Tem interesse de agendar em alguma delas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681773187976",
+      "conditions": "@Cirurgia",
+      "dialog_node": "node_3_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Sexo_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o tipo de cirurgia? (Castração, ortopédica, neurocirurgia, etc)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1681771668638",
+      "conditions": "@sexo",
+      "dialog_node": "node_3_1681773187976"
+    },
+    {
+      "type": "standard",
+      "title": "Cirurgia com espécie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o sexo do animal?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1681773187976"
+      },
+      "conditions": "@Espécie && #Cirurgias",
+      "dialog_node": "node_3_1681784465969",
+      "previous_sibling": "node_4_1681754487570"
+    },
+    {
+      "type": "standard",
+      "title": "Negação_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamento por não poder ajudar. Estaremos expandindo para outras cidades em breve!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1681768991280",
+      "conditions": "@sim_não:não",
+      "dialog_node": "node_32_1681768991280",
+      "previous_sibling": "node_30_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "São Paulo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A nossa unidade de $localidade fica localizada na Rua Cerro Corá 1438, São Paulo, SP, 05061-200. Estamos esperando!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_31_1681776229285",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:(São Paulo)",
+      "dialog_node": "node_32_1681776229292"
+    },
+    {
+      "type": "standard",
+      "title": "Localidade_3",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1681768991280",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@localidade",
+      "dialog_node": "node_33_1681768991280",
+      "previous_sibling": "node_32_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Rio de Janeiro\\",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A nossa unidade de $localidade fica localizada no Shopping Downtown - Av. das Américas, 500 - BL9 Loja 107 - Barra da Tijuca, Rio de Janeiro - RJ, 22640-100. Estamos esperando!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_31_1681776229285",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:(Rio de Janeiro)",
+      "dialog_node": "node_33_1681776229292",
+      "previous_sibling": "node_32_1681776229292"
+    },
+    {
+      "type": "standard",
+      "title": "São Paulo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Rua Cerro Corá 1438, São Paulo, SP, 05061-200. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1681768991280",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_40_1681768991280"
+      },
+      "conditions": "@localidade:(São Paulo)",
+      "dialog_node": "node_34_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Curitiba",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A nossa unidade de $localidade fica localizada na R. Itatiaia, 1131 - Portão, Curitiba - PR, 81070-100.Estamos esperando!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_31_1681776229285",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:Curitiba",
+      "dialog_node": "node_34_1681776229292",
+      "previous_sibling": "node_33_1681776229292"
+    },
+    {
+      "type": "standard",
+      "title": "Rio de Janeiro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Shopping Downtown - Av. das Américas, 500 - BL9 Loja 107 - Barra da Tijuca, Rio de Janeiro - RJ, 22640-100. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1681768991280",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_40_1681768991280"
+      },
+      "conditions": "@localidade:(Rio de Janeiro)",
+      "dialog_node": "node_35_1681768991280",
+      "previous_sibling": "node_34_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Porto Alegre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A nossa unidade de $localidade fica localizada na Av. Benno Mentz, 1368 - Vila Ipiranga, Porto Alegre - RS, 91370-020. Estamos esperando!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_31_1681776229285",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:(Porto Alegre)",
+      "dialog_node": "node_35_1681776229292",
+      "previous_sibling": "node_34_1681776229292"
+    },
+    {
+      "type": "standard",
+      "title": "Curitiba",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na R. Itatiaia, 1131 - Portão, Curitiba - PR, 81070-100. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1681768991280",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_40_1681768991280"
+      },
+      "conditions": "@localidade:Curitiba",
+      "dialog_node": "node_36_1681768991280",
+      "previous_sibling": "node_35_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Florianópolis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A nossa unidade de $localidade fica localizada na R. Cel. Caetano Costa, 354 - Jardim Atlântico, Florianópolis - SC, 88090-340. Estamos esperando!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_31_1681776229285",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:Florianópolis",
+      "dialog_node": "node_36_1681776229292",
+      "previous_sibling": "node_35_1681776229292"
+    },
+    {
+      "type": "standard",
+      "title": "Porto Alegre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Av. Benno Mentz, 1368 - Vila Ipiranga, Porto Alegre - RS, 91370-020. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1681768991280",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_40_1681768991280"
+      },
+      "conditions": "@localidade:(Porto Alegre)",
+      "dialog_node": "node_37_1681768991280",
+      "previous_sibling": "node_36_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Belo Horizonte",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A nossa unidade de $localidade fica localizada na Rua Meyer, 102 - Alto Caiçaras, Belo Horizonte - MG, 30775-070. Estamos esperando!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_31_1681776229285",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:(Belo Horizonte)",
+      "dialog_node": "node_37_1681776229292",
+      "previous_sibling": "node_36_1681776229292"
+    },
+    {
+      "type": "standard",
+      "title": "Florianópolis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na R. Cel. Caetano Costa, 354 - Jardim Atlântico, Florianópolis - SC, 88090-340.                                                                                                                                                                              Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1681768991280",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_40_1681768991280"
+      },
+      "conditions": "@localidade:Florianópolis",
+      "dialog_node": "node_38_1681768991280",
+      "previous_sibling": "node_37_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Belo Horizonte",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Rua Meyer, 102 - Alto Caiçaras, Belo Horizonte - MG, 30775-070. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1681768991280",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_40_1681768991280"
+      },
+      "conditions": "@localidade:(Belo Horizonte)",
+      "dialog_node": "node_39_1681768991280",
+      "previous_sibling": "node_38_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Dia da vacina",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a data de vacinação foi marcada para o dia $data_vacina, na unidade de $localidade. Só chegar lá e falar com a recepcionista."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1681768991280",
+      "context": {
+        "data_vacina": "\"<? @sys-date.reformatDateTime(\"dd/MM/yyyy\")?>\""
+      },
+      "conditions": "@sys-date",
+      "dialog_node": "node_40_1681768991280",
+      "previous_sibling": "node_33_1681768991280"
+    },
+    {
+      "type": "standard",
+      "title": "Curitiba",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na R. Itatiaia, 1131 - Portão, Curitiba - PR, 81070-100. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar o exame para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1681753421007",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:Curitiba",
+      "dialog_node": "node_4_1681753421033",
+      "previous_sibling": "node_3_1681753421033"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação Com localidade",
+      "parent": "node_10_1681752810719",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1681753421007"
+      },
+      "conditions": "@sim_não:sim && @localidade",
+      "dialog_node": "node_4_1681753469163"
+    },
+    {
+      "type": "standard",
+      "title": "Vacina",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual a espécie do animal? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Vacina",
+      "dialog_node": "node_4_1681754487570",
+      "previous_sibling": "node_10_1681784414958"
+    },
+    {
+      "type": "standard",
+      "title": "Desmarcar Exames",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O exame do seu pet foi desmarcado com sucesso!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Desmarcar_Exames",
+      "dialog_node": "node_4_1681762263886",
+      "previous_sibling": "node_6_1681692463078"
+    },
+    {
+      "type": "standard",
+      "title": "Negação_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamento por não poder ajudar. Estaremos expandindo para outras cidades em breve!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681765837954",
+      "conditions": "@sim_não:não",
+      "dialog_node": "node_4_1681768384935",
+      "previous_sibling": "node_2_1681768359339"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação Com localidade_4",
+      "output": {},
+      "parent": "node_3_1681771668638",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1681753421007"
+      },
+      "conditions": "@sim_não:sim && @localidade",
+      "dialog_node": "node_4_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Exame com Espécie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o sexo do animal?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681765270280"
+      },
+      "conditions": "#Marcar_Exames && @Espécie",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1681783551420",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Consulta com especie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o sexo do animal?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1681765837954"
+      },
+      "conditions": "#Marcar_consulta && @Espécie",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1681784271035",
+      "previous_sibling": "node_5_1681762622577"
+    },
+    {
+      "type": "standard",
+      "title": "Envio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, enviaremos em até 2h."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1681741890020",
+      "conditions": "@email",
+      "dialog_node": "node_5_1681741959057"
+    },
+    {
+      "type": "standard",
+      "title": "Porto Alegre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Av. Benno Mentz, 1368 - Vila Ipiranga, Porto Alegre - RS, 91370-020. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar o exame para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1681753421007",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:(Porto Alegre)",
+      "dialog_node": "node_5_1681753421033",
+      "previous_sibling": "node_4_1681753421033"
+    },
+    {
+      "type": "standard",
+      "title": "Desmarcar consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A consulta do seu pet foi desmarcado com sucesso!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#desmarcar_consulta",
+      "dialog_node": "node_5_1681762622577",
+      "previous_sibling": "node_6_1681762690797"
+    },
+    {
+      "type": "standard",
+      "title": "Localidade_2",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681765837954",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@localidade",
+      "dialog_node": "node_5_1681768459653",
+      "previous_sibling": "node_4_1681768384935"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual delas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681771668638",
+      "conditions": "@sim_não:sim",
+      "dialog_node": "node_5_1681771668638",
+      "previous_sibling": "node_4_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Sexo_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o tipo de vacina?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_27_1681768991274",
+      "conditions": "@sexo",
+      "dialog_node": "node_5_1681772988207"
+    },
+    {
+      "type": "standard",
+      "title": "Exames",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual a espécie do animal?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "especie": "@especie"
+      },
+      "conditions": "#Marcar_Exames",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1681692463078",
+      "previous_sibling": "node_4_1681783551420"
+    },
+    {
+      "type": "standard",
+      "title": "Florianópolis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na R. Cel. Caetano Costa, 354 - Jardim Atlântico, Florianópolis - SC, 88090-340. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar o exame para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1681753421007",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:Florianópolis",
+      "dialog_node": "node_6_1681753421033",
+      "previous_sibling": "node_5_1681753421033"
+    },
+    {
+      "type": "standard",
+      "title": "Desmarcar cirurgia ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A cirurgia do seu pet foi desmarcada com sucesso!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#desmarcar_cirurgia",
+      "dialog_node": "node_6_1681762690797",
+      "previous_sibling": "node_4_1681762263886"
+    },
+    {
+      "type": "standard",
+      "title": "São Paulo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na                                                                                                                                                            Rua Cerro Corá 1438, São Paulo, SP, 05061-200 Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1681768459653",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_12_1681768530131"
+      },
+      "conditions": "@localidade:(São Paulo)",
+      "dialog_node": "node_6_1681768459659"
+    },
+    {
+      "type": "standard",
+      "title": "Localidade",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1681771668638",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1681753421007"
+      },
+      "conditions": "@localidade",
+      "dialog_node": "node_6_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Obrigado por escolher a nossa clinica! Até mais!"
+              },
+              {
+                "text": "Que bom! Ficamos felizes em te atender! Volte sempre!"
+              },
+              {
+                "text": " Agradecemos a preferencia, cuide bem do(s) seu(s) pet(s) sempre! Até."
+              },
+              {
+                "text": "É um prazer cuidar do seu pet, volte sempre! Obrigada!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1681736929225",
+      "conditions": "@sim_não:não",
+      "dialog_node": "node_6_1681778873658",
+      "previous_sibling": "node_9_1681778619920"
+    },
+    {
+      "type": "standard",
+      "title": "Negação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamento por não poder ajudar. Estaremos expandindo para outras cidades em breve!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1681752810719",
+      "conditions": "@sim_não:não",
+      "dialog_node": "node_7_1681733907267",
+      "previous_sibling": "node_2_1681732451386"
+    },
+    {
+      "type": "standard",
+      "title": "Dia do exame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, seu exame foi marcado para o dia $data_exame, na unidade de $localidade. Só chegar lá e falar com a recepcionista.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1681752810719",
+      "context": {
+        "data_exame": "\"<? @sys-date.reformatDateTime(\"dd/MM/yyyy\")?>\""
+      },
+      "conditions": "@sys-date",
+      "dialog_node": "node_7_1681734871028",
+      "previous_sibling": "node_1_1681753421007"
+    },
+    {
+      "type": "standard",
+      "title": "Belo Horizonte",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Rua Meyer, 102 - Alto Caiçaras, Belo Horizonte - MG, 30775-070. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar o exame para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1681753421007",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1681734871028"
+      },
+      "conditions": "@localidade:(Belo Horizonte)",
+      "dialog_node": "node_7_1681753421033",
+      "previous_sibling": "node_6_1681753421033"
+    },
+    {
+      "type": "standard",
+      "title": "Sexo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o tipo do exame?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681764603379",
+      "conditions": "@sexo",
+      "dialog_node": "node_7_1681765270280"
+    },
+    {
+      "type": "standard",
+      "title": "Rio de Janeiro\\",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada no Shopping Downtown - Av. das Américas, 500 - BL9 Loja 107 - Barra da Tijuca, Rio de Janeiro - RJ, 22640-100. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1681768459653",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_12_1681768530131"
+      },
+      "conditions": "@localidade:(Rio de Janeiro)",
+      "dialog_node": "node_7_1681768459659",
+      "previous_sibling": "node_6_1681768459659"
+    },
+    {
+      "type": "standard",
+      "title": "Negação_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamento por não poder ajudar. Estaremos expandindo para outras cidades em breve!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681771668638",
+      "conditions": "@sim_não:não",
+      "dialog_node": "node_7_1681771668638",
+      "previous_sibling": "node_5_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Curitiba",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na R. Itatiaia, 1131 - Portão, Curitiba - PR, 81070-100. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1681768459653",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_12_1681768530131"
+      },
+      "conditions": "@localidade:Curitiba",
+      "dialog_node": "node_8_1681768459659",
+      "previous_sibling": "node_7_1681768459659"
+    },
+    {
+      "type": "standard",
+      "title": "Localidade_4",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1681771668638",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@localidade",
+      "dialog_node": "node_8_1681771668638",
+      "previous_sibling": "node_7_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Porto Alegre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Av. Benno Mentz, 1368 - Vila Ipiranga, Porto Alegre - RS, 91370-020. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1681768459653",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_12_1681768530131"
+      },
+      "conditions": "@localidade:(Porto Alegre)",
+      "dialog_node": "node_9_1681768459659",
+      "previous_sibling": "node_8_1681768459659"
+    },
+    {
+      "type": "standard",
+      "title": "São Paulo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a nossa unidade de $localidade fica localizada na Rua Cerro Corá 1438, São Paulo, SP, 05061-200. Funciona de segunda a sábado, das 8h até as 20h. Gostaria de marcar para qual dia? Digite a data com o formato (dd/MM/yyyy)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1681771668638",
+      "context": {
+        "localidade": "@localidade"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_15_1681771668638"
+      },
+      "conditions": "@localidade:(São Paulo)",
+      "dialog_node": "node_9_1681771668638"
+    },
+    {
+      "type": "standard",
+      "title": "Sim",
+      "parent": "node_2_1681736929225",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@sim_não:sim",
+      "dialog_node": "node_9_1681778619920"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "cp1-dialog"
+}
